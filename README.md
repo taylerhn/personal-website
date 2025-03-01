@@ -1,2 +1,1 @@
-# tayler
-My Personal Website! (IN PROGRESS)
+# My Personal Website! (IN PROGRESS)
