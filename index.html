@@ -1,53 +1,46 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tayler Hau Nguyen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<html>
-	<head>
-		<title>Tayler Hau Nguyen</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--Font-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-rOA1PvnVQ3H1fZJYF6QkAKSjL7fF9cbw7DPI5A3Cn+Guj9j76K76CjZTH6Z1CQbfm7haN2ABfdVPge9U3z6AcA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<!--CSS-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
-				<!--Header-->
-				<header id="header">
-					<h1>Tayler Hau Nguyen</h1>
-					<p>Community Leader &nbsp;&bull;&nbsp; Aspiring Software Engineer &nbsp;&bull;&nbsp; EECS @ Berkeley</p>
-					<nav>
-						<ul>
-							<li><a href="https://github.com/tayler0330" class="icon fab fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://www.linkedin.com/in/taylerhn" class="icon fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://docs.google.com/document/d/1BxDid3jtt0ubkBKPzowOhM7xxaMrwrB2/edit?usp=sharing&ouid=109724177474100346786&rtpof=true&sd=true" class="icon fas fa-file-pdf" target="_blank"><span class="label">Resume</span></a></li>
-						</ul>
-					</nav>
-				</header>
-				<!--About Me-->
-				<aside id="about-me" class="side-section left">
-					<h2>About Me</h2>
-					<p>
-						Hello! I'm Tayler Nguyen, a passionate community leader and aspiring software engineer. I'm currently pursuing Electrical Engineering and Computer Science at UC Berkeley, where I explore my interests in technology, innovation, and social impact. I believe in the power of tech to bridge gaps, create opportunities, and bring meaningful change. In my free time, I enjoy coding personal projects, mentoring first-gen students, and discovering new coffee spots!
-					</p>
-				</aside>
-				<!--Headshot-->
-				<aside id="headshot-section" class="side-section right"></aside>
-				<!--Footer-->
-				<footer id="footer">
-					<span>Thank you for visiting my website! <3</span>
-				</footer>
+  <div class="container">
 
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m Tayler Nguyen, a passionate community leader and aspiring software engineer.
+        I’m currently pursuing Electrical Engineering and Computer Science at UC Berkeley.
+      </p>
+      <br />
+      <p>
+        I believe in the power of tech to bridge gaps, create opportunities, and bring meaningful change.
+        In my free time, I enjoy coding personal projects, mentoring first-gen students,
+        and discovering new coffee spots!
+      </p>
+    </div>
+
+    <div class="text-content">
+      <h1>Tayler Hau Nguyen</h1>
+      <p class="subtitle">&middot; Community Leader<br>&middot; Aspiring Software Engineer<br> &middot; EECS @ Berkeley</p>
+      <nav>
+        <a href="https://github.com/taylerhn">GitHub</a>
+        <a href="https://www.linkedin.com/in/taylerhn/">LinkedIn</a>
+        <a href="https://drive.google.com/file/d/1eF6HYpUmLv72p5ZID15mk1sPriLW-ZoX/view?usp=sharing">Resume</a>
+      </nav>
+    </div>
+
+    <img src="images/headshot.png" alt="Headshot" class="headshot" />
+    
+  </div>
+
+  <footer>
+    Thank you for visiting my website! &lt;3
+  </footer>
+
+</body>
 </html>
